@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+body{
+    width: auto;
+    background-color:white ;
+    
+}
+
+.conteiner{
+    position: relative;
+    width: auto;
+    margin: 0 auto;
+    
+    
+}
+.imgantes{
+    background-image: linear-gradient(black, white);
+}
+.banner{
+    width:90%;
+    align-items: center;
+    margin: 0px 5%;
+    padding: 0 200px;
+   
+}
+
+.itens{
+    position: static;
+    display: block;
+    padding-bottom: 3em;
+    padding-top: 3em;
+    padding-left: 500px;
+    margin: 0 auto;
+    
+   
+   
+}
+nav li, nav a{
+    width: 100%;
+    padding: 0 30px;
+    font-size: 30px;
+    font-weight: bold;
+    display:inline;
+    bottom: 200px;
+    color: black;
+
+}
+
+main{
+    padding: 10px 0 100px 0px;
+    
+}
+section h2{
+    padding: 0 10em;
+}
+
+.produtos{
+    float:right;
+    width: 45%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 40px auto;
+ 
+}
+.vestidos{
+    width: 50%;
+    border:2px solid;
+    border-radius: 20px;
+    box-shadow: 2px 2px 1px black;
+}
+
+section p{
+    font-size: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.input-padrao{
+    display: block; /* para ficar alinhado*/
+    margin: 0 0 20px;
+    padding: 10px 25px;/* o quadrado do input vai ficar maior 10px pra cima e baixo e 25 px pros lados*/
+    width: 90%;/* A largura da Caixa ficará com 50% da pag*/
+}
+.form{
+    margin: 40px 0;  
+    padding: 0 300px;
+}
+.form label, form legend{
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    align-items: center;
+}
+.enviar{
+    background-color: orange;
+    width: 90%;
+    padding: 20px 0;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    padding: 100px 150px;
+    margin-top: 130px;
+    font-weight: bold;
+    font-size: 15px;
+    color:Black;
+    background-image: linear-gradient(white,rgba(0, 0, 0, 0.274));
+}
